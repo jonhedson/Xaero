@@ -10,7 +10,7 @@ using System.Dynamic;
 
 namespace Xaero.Infrastructure
 {
-    [HtmlTargetElement("div", Attributes = "page-model")]
+    [HtmlTargetElement("div", Attributes = "page-model")]   
     public class PageLinkTagHelper : TagHelper
     {
         private IUrlHelperFactory urlHelperFactory;
